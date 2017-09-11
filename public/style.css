@@ -198,6 +198,54 @@ h1{
   color: white;
 }
 
+.intro{
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.links{
+  position: relative;
+  width: 30%;
+  text-align: center;
+  padding-left: 10%;
+  padding-top: 40px;
+}
+
+.links img{
+  width: 150px;
+
+}
+
+.links p{
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.links a{
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.links i{
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+.video{
+  width: 700px;
+  position: relative;
+  left: 20%;
+}
+
+.events{
+  margin-top: 20px;
+}
+
 .events h1{
   color: #444;
   letter-spacing: 1px;
@@ -220,6 +268,8 @@ h1{
   display: flex;
   justify-content: space-around;
   height: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
   margin-left: 150px;
   margin-right: 150px;
   background-color: #ccc;
@@ -275,13 +325,19 @@ h1{
       background-color: #333;
     }
     .textfield{
-      font-size: 26px;
+      font-size: 24px;
     }
     .team-class h4{
       left: 87%;
     }
     .fa-angle-double-down{
       left: 82%
+    }
+    .links{
+      display: block;
+    }
+    .video{
+      width: auto;
     }
     .events h1{
       font-size: 60px;
