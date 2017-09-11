@@ -273,11 +273,17 @@ h1{
     .collapse{
       background-color: #333;
     }
+    .textfield{
+      font-size: 26px;
+    }
     .team-class h4{
       left: 87%;
     }
     .fa-angle-double-down{
       left: 82%
+    }
+    .events h1{
+      font-size: 60px;
     }
     .btns button{
       margin: 0 0;
