@@ -1,0 +1,314 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #bbb;
+}
+
+#particles-js {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden
+}
+
+
+.textfield{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: Raleway;
+  font-size: 70px;
+  font-weight: bold;
+  opacity:1;
+}
+
+.fa-angle-double-down{
+  position: absolute;
+  color: #ccc;
+  font-size: 4em;
+  left: 93%;
+  top: 86%;
+}
+
+.random{
+  height: 3000px;
+}
+
+nav{
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding-top: 5px;
+  font-family: Josefin Sans;
+}
+
+
+.navbar-brand{
+  font-size: 170%;
+}
+
+.btn-large{
+  position: fixed;
+  left: 93%;
+  top: 86%;
+}
+
+.hide{
+  left:100%;
+  top:100%;
+}
+
+.team-class{
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  left: 100%;
+  top: 0;
+  background-image:url("/team/teambg.jpg");
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  opacity: 0.3;
+  z-index: 3333333333;
+  transition: 0.4s ease-in-out;
+}
+
+.active{
+  opacity: 1;
+  left: 0;
+  overflow: scroll;
+}
+
+.img__img{
+  width: 200px;
+  border-radius: 200px;
+
+}
+
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.team-class h1{
+  padding-top: 50px;
+  padding-bottom: 0px;
+
+}
+
+.col-lg-6{
+  display: flex;
+  justify-content: center;
+
+}
+.col-md-6{
+  display: flex;
+  justify-content: center;
+}
+.col-lg-4{
+  display: flex;
+  justify-content: center;
+}
+.col-md-4{
+  display: flex;
+  justify-content: center;
+}
+.col-lg-12{
+  display: flex;
+  justify-content: center;
+}
+.col-md-12{
+  display: flex;
+  justify-content: center;
+}
+.col-lg-3{
+  display: flex;
+  justify-content: center;
+}
+.col-md-3{
+  display: flex;
+  justify-content: center;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0, 0.5);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px;
+  width: 200px;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  font-size: 22px;
+  font-family: Raleway;
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+h1{
+  font-size: 72px;
+}
+
+.team-class h1{
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-family: Montserrat;
+}
+
+.post{
+  padding: 0;
+}
+
+.team-class h4{
+  position: absolute;
+  left: 95%;
+  font-size: 3em;
+  opacity: 0.8;
+  color: white;
+}
+
+.events h1{
+  color: #444;
+  letter-spacing: 1px;
+  font-family: Ubuntu;
+  text-align: center;
+  padding: 3px;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+}
+
+.btns button{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.tech{
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #ccc;
+  padding: 40px;
+  box-shadow: 3px 3px 10px #888;
+  border-radius:2px;
+}
+
+.tech img{
+  width: 40%;
+  height: 20%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #888;
+}
+
+.tech h3{
+  padding-top: 0;
+  text-align: center;
+
+}
+
+.tech .event_desc{
+  display: block;
+  padding-left: 30px;
+  font-family: Ubuntu;
+  width: 70%;
+}
+
+.tech .about p{
+  font-size: 20px;
+}
+
+.tech .rules{
+  list-style-type: circle;
+}
+
+.tech .text{
+  font-size: 20px;
+  color: black;
+  padding-top: 20px;
+  padding-left: 16%;
+}
+
+.card img{
+  width: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+    .btn-large{
+      left: 78%;
+    }
+    .collapse{
+      background-color: #333;
+    }
+    .team-class h4{
+      left: 87%;
+    }
+    .fa-angle-double-down{
+      left: 82%
+    }
+    .btns button{
+      margin: 0 0;
+      position: static;
+      margin-top: 91%;
+    }
+    .btns{
+      position: relative;
+      right: 82%;
+    }
+    .tech{
+      padding: 10px;
+      margin: 20px;
+      width: 90%;
+    }
+    .event_desc{
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+    .tech img{
+      position: relative;
+      left:33%;
+      margin-top: 5px;
+      width: 90%;
+    }
+    .tech .text{
+      padding: 0;
+      margin: 0;
+      position: relative;
+      top: 2%;
+      right: 105%;
+    }
+}
